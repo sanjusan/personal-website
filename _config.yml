@@ -1,7 +1,7 @@
 # Site settings
 name: Sanjana Mehta
 title: Sanjana Mehta | Product Manager
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+description: I make money and feel fulfilled by envisioning experiences that delight users
 url: https://sanjusan.github.io/Website3.0/
 baseurl: ''
 email: sanjsmehta@gmail.com
@@ -10,17 +10,15 @@ logo: https://bchiang7.github.io/img/emojis/technologist.png
 resume: https://bchiang7.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:sanjsmehta@gmail.com
   - title: twitter
-    url: https://twitter.com/bchiang7
+    url: https://twitter.com/mehta_sanjana
   - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
+    url: https://instagram.com/sanjs_mehta
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/sanjusan
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/sanjanamehta/
 
 # Build settings
 markdown: kramdown

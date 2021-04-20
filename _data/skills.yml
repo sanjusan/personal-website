@@ -1,33 +1,22 @@
-languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
-  - item: Python
-  - item: SQL
-  - item: R
-
-frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+product:
+  - item: Agile Product Management and Delivery
+  - item: Audience Segmentation
+  - item: Data Analysis
+  - item: Product Strategy
+  - item: Retention and Engagement
+  - item: Usability Heuristics
+  - item: Data Modeling
 
 tools:
-  - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
   - item: Postman
-  - item: MongoDB
+  - item: Notion
+  - item: JIRA and Confluence
+  - item: Whimsical
+  - item: MIRO
 
 design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
+  - item: Figma
   - item: Prototyping
   - item: Wireframing
   - item: User Testing

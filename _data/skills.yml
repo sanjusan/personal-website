@@ -8,12 +8,14 @@ product:
   - item: Data Modeling
 
 tools:
-  - item: Git & Github
-  - item: Postman
+  - item: Amplitude
+  - item: One Signal
+  - item: Customer.io
   - item: Notion
-  - item: JIRA and Confluence
   - item: Whimsical
-  - item: MIRO
+  - item: Miro
+  - item: Github
+  - item: Postman
 
 design:
   - item: Figma

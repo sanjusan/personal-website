@@ -1,11 +1,14 @@
-- name: to be filled
-  url: to be filled
-  code: to be filled
-  description: to be filled
+- name: まちのコイン (Machi no Coin)
+  url: https://coin.machino.co/
+  description: A community coin that incentivizes members with a digital local currency every time they interact with the community. For example, you can get [まちのコイン] by entering a store for the first time or participating in a local festival.
   used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: YouTube API
+    - thing: product strategy
+    - thing: digital micro-economies
+    
+- name: SCOIN 
+  url: https://www.sbigroup.co.jp/news/2018/0925_11269.html
+  description: A a cashless payment system for SBI Group employees usable at restaurants, shops etc. using stamp based authentication.
+  used:
+    - thing: product development
+    - thing: UI/UX
 

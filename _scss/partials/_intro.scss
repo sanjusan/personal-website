@@ -96,16 +96,8 @@
     .name {
       font-weight: 700;
     }
-    .emoji {
-      &.rocket {
-        background-image: url('../img/emojis/rocket.png');
-        width: 30px;
-        height: 30px;
-        @include phablet {
-          width: 25px;
-          height: 25px;
-        }
-      }
+    .rocket {
+      background-image: url('../img/emojis/rocket.png)');
     }
   }
   &__contact {

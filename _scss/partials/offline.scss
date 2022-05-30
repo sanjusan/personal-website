@@ -58,13 +58,7 @@
     box-sizing: border-box;
     white-space: normal;
     
-    figure {
-        display: flex;
-        margin: 0;
-    }
-    
     div {
-        @include aspect-ratio(3, 2);
         width: 100%;
     }
     
@@ -92,18 +86,6 @@
         overflow-y: scroll;
     }
 }
-
-.carousel__thumbnails {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    
-    margin: 0 -10px;
-    
-    .carousel__slides + & {
-        margin-top: 20px;
-    }
     
     li {        
         flex: 1 1 auto;

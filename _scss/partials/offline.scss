@@ -1,33 +1,22 @@
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+    
+  > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+  }
+}
+
 .carousel {
     display: block;
     text-align: left;
     position: relative;
     margin-bottom: 22px;
-    
-    > input {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50%);
-        height: 1px;
-        width: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        
-        &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
-        &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
-        &:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -300%; }
-        &:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -200%; }
-        &:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -100%; }
-        &:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: 0%; }
-        
-        &:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
-        &:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
-        &:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
-        &:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
-        &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
-        &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
-    }
 }
 
 .carousel__slides {
@@ -44,14 +33,15 @@
 .carousel__slide {
     position: relative;
     display: block;
-    flex: 1 0 100%;
     width: 100%;
     height: 100%;
     overflow: hidden;
     transition: all 300ms ease-out;
     vertical-align: top;
-    box-sizing: border-box;
-    white-space: normal;
+    
+    figure {
+        margin: 0;
+    }
     
     div {
         width: 100%;
@@ -62,48 +52,14 @@
         flex: 1 1 auto;
         object-fit: cover;
     }
-    
-    figcaption {
-        align-self: flex-end;
-        padding: 20px 20px 0 20px;
-        flex: 0 0 auto;
-        width: 25%;
-        min-width: 150px;
-    }
-    
-    .credit {
-        margin-top: 1rem;
-        color: rgba(0, 0, 0, 0.5);
-        display: block;        
-    }
-    
-    &.scrollable {
-        overflow-y: scroll;
-    }
 }
-    
-    li {        
-        flex: 1 1 auto;
-        max-width: calc((100% / 6) - 20px);  
-        margin: 0 10px;
-        transition: all 300ms ease-in-out;
-    }
-    
-    label {
-        display: block;
-        @include aspect-ratio(1,1);
-        
-                  
-        &:hover,
-        &:focus {
-            cursor: pointer;
-            
-            img {
-                box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.25);
-                transition: all 300ms ease-in-out;
-            }
-        }
-    }
+
+.carousel__thumbnails {
+    padding: 0;
+    margin: 0;
+    display: left-align;
+    width: 10%; 
+    padding: 10px 0;
     
     img {
         display: block;

@@ -1,1 +1,70 @@
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+    
+  > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+  }
+}
 
+.carousel {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.carousel__slides {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.carousel__slide {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+    vertical-align: top;
+    
+    figure {
+        margin: 0;
+    }
+    
+    div {
+        width: 100%;
+    }
+    
+    img {
+        display: block;
+        flex: 1 1 auto;
+        object-fit: cover;
+    }
+}
+
+.carousel__thumbnails {
+    padding: 0;
+    margin: 0;
+    display: left-align;
+    width: 10%; 
+    padding: 10px 0;
+    
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

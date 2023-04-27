@@ -26,18 +26,12 @@
     - thing: product leadership
     - thing: mentorship
 
-- name: まちのコイン (Machi no Coin)
-  url: https://coin.machino.co/
-  description: A community coin that incentivizes members with a digital local currency every time they interact with the community. For example, you can get [まちのコイン] by entering a store for the first time or participating in a local festival.
+- name: Consultant @ Samba TV
+  url: https://www.i-com.org/news-articles/samba-tv-cryptocurrency-consumer-privacy-and-data-control
+  description: Built a proof of concept web3 wallet that gives end-user control to make decisions related to – and provide more transparency for – the collection and monetization of their data.
   used:
     - thing: product strategy
-    - thing: digital micro-economies
-    
-- name: SCOIN 
-  url: https://www.sbigroup.co.jp/news/2018/0925_11269.html
-  description: A a cashless payment system for SBI Group employees usable at restaurants, shops etc. using stamp based authentication.
-  used:
+    - thing: television tech
     - thing: product development
-    - thing: UI/UX
-
+   
 

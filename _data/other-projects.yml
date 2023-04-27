@@ -1,3 +1,17 @@
+- name: Venture Expert @ Japan's Venture Accademy
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7027159316109414400/
+  description: JVA is a student-run initiative offering a 3 months startup fellowship to university students to gain entrepreneurial experience by building products for real world problems.
+  used:
+    - thing: product leadership
+    - thing: mentorship
+
+- name: Mentor @ Japan Product Camp
+  url: https://www.linkedin.com/company/japanproductcamp/
+  description: Japan Product Camp (JPC) is a 6-week co-creative learning, knowledge-sharing, and relationship-building opportunity for those interested in pursuing PM careers in Japan.
+  used:
+    - thing: product leadership
+    - thing: mentorship
+
 - name: まちのコイン (Machi no Coin)
   url: https://coin.machino.co/
   description: A community coin that incentivizes members with a digital local currency every time they interact with the community. For example, you can get [まちのコイン] by entering a store for the first time or participating in a local festival.
@@ -11,4 +25,5 @@
   used:
     - thing: product development
     - thing: UI/UX
+
 

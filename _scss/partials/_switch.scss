@@ -59,14 +59,13 @@
       }
     }
   }
-  .graveyard-link {
-    margin-right: 30px;
-    font-size: 0.9rem;
+  .graveyard-link.highlight-link {
     text-decoration: underline !important;
     text-underline-offset: 3px;
+    box-shadow: none !important;
+    margin-right: 30px;
     @include mobile {
       margin-right: 25px;
-      font-size: 0.8rem;
     }
   }
 }

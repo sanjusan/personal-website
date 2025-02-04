@@ -66,11 +66,15 @@
     text-decoration: underline !important;
     text-underline-offset: 4px;
     text-decoration-thickness: 1.5px;
-    box-shadow: none !important;
+    position: relative;
     
-    &:hover {
-      box-shadow: none !important;
-      color: inherit !important;
+    // Create space between text and underline
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      width: 20px;
+      height: 100%;
     }
     
     @include mobile {
